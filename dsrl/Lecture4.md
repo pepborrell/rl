@@ -113,13 +113,13 @@ Several _techniques_ to estimate the value fucntion:
     * TD samples
     * DP doesn't sample
 
-![image-20210126130013276](/home/pep/Documents/rl/dsrl/Lecture4.assets/image-20210126130013276.png)
+![image-20210126130013276](Lecture4.assets/image-20210126130013276.png)
 
 ## TD($\lambda$)
 
 The choice of the algorithm is not either TD or MC. There is in fact a family of algorithms that lie between these two cases, and contain both TD(0) and MC as specific cases.
 
-<img src="/home/pep/Documents/rl/dsrl/Lecture4.assets/image-20210126130716085.png" alt="image-20210126130716085" style="zoom:33%;" />
+<img src="Lecture4.assets/image-20210126130716085.png" alt="image-20210126130716085" style="zoom:33%;" />
 
 We can obtain this using n-step returns.
 
@@ -178,4 +178,4 @@ When $\lambda = 0$, we only update the current state: equivalent to TD(0)
 
 This result has been extended to online updates as well.
 
-<img src="/home/pep/Documents/rl/dsrl/Lecture4.assets/image-20210126133816394.png" alt="image-20210126133816394" style="zoom:67%;" />
+<img src="Lecture4.assets/image-20210126133816394.png" alt="image-20210126133816394" style="zoom:67%;" />
